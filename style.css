@@ -1,0 +1,144 @@
+html {
+	font-family: Cambria, serif;
+	color: #404040;
+}
+
+h1 {
+	/*background-color: #FFFFFF;*/
+}
+
+h2 {
+	padding: 8px;
+	text-align: center;
+	background-color: #FFFEE8;
+	font-style: italic;
+}
+
+h3 {
+	
+}
+
+p {
+	padding: 5px;
+	font-size: 20px;
+}
+
+a:visited {
+	color: #404040;
+}
+
+body {
+	background-color: #F5F3B7;
+}
+
+header {
+	background-color: #FFFEE8;
+	padding: 20px;
+	text-align: center;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #e3d46f;
+	/*border-bottom: 15px solid #00C0C0;*/
+}
+
+.navbar a {
+	/*color: #E0C475;*/
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #B8AB48;
+	background-color: #FFFEE8;
+	font-weight: bold;
+}
+
+.grid_frame {
+	display: grid;
+	column-gap: 35px;
+}
+
+.left_image {
+	padding: 20px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.right_image {
+	padding: 20px;
+	grid-column-start: 6;
+	grid-column-end: 7;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+}
+
+figcaption {
+	
+}
+
+.short_bio {
+	padding: 20px;
+	grid-column-start: 2;
+	grid-column-end: 8;
+	font-size: 20px;
+}
+
+.left-accomplishment {
+	padding: 20px;
+	grid-column-start: 2;
+	grid-column-end: 7;
+	font-size: 20px;
+}
+
+.right-accomplishment {
+	padding: 20px;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	font-size: 20px;
+}
+
+.hobby_pic_1 {
+	padding: 20px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	font-size: 12px;
+}
+
+.hobby_pic_2 {
+	padding: 20px;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	text-align: center;
+	font-size: 12px;
+}
+
+.hobby_pic_3 {
+	padding: 20px;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer {
+	
+}
+
+
+
+
+
+
+
+
+
