@@ -130,9 +130,26 @@ figcaption {
 	font-size: 12px;
 }
 
-footer {
-	
+ol {
+	font-size: 18px;
 }
+
+ul li {
+	font-style: italic;
+}
+
+ul em {
+	font-style: normal;
+}
+
+footer {
+	font-size: 12px;
+	background-color: #FFFEE8;
+	padding: 15px;
+	width: 100%;
+	bottom: 0;
+}
+
 
 
 
