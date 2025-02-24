@@ -29,6 +29,14 @@ a:visited {
 
 body {
 	background-color: #F5F3B7;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	/*background-color: #EBC878;*/
+}
+
+.content {
+	background-color: #E8DCB5;
 }
 
 header {
@@ -64,25 +72,21 @@ header {
 }
 
 .left_image {
-	padding: 20px;
+	padding: 5px;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	text-align: center;
-	font-size: 12px;
+	font-size: 16px;
 	font-style: italic;
 }
 
 .right_image {
-	padding: 20px;
+	padding: 5px;
 	grid-column-start: 6;
 	grid-column-end: 7;
 	text-align: center;
-	font-size: 12px;
+	font-size: 16px;
 	font-style: italic;
-}
-
-figcaption {
-	
 }
 
 .short_bio {
@@ -93,17 +97,26 @@ figcaption {
 }
 
 .left-accomplishment {
-	padding: 20px;
+	padding: 10px;
 	grid-column-start: 2;
 	grid-column-end: 7;
 	font-size: 20px;
 }
 
 .right-accomplishment {
-	padding: 20px;
+	padding: 10px;
 	grid-column-start: 1;
 	grid-column-end: 6;
 	font-size: 20px;
+	text-align: right;
+}
+
+.hobby_summary {
+	padding: 5px;
+}
+
+.hobby_captions {
+	font-size: 16px;
 }
 
 .hobby_pic_1 {
@@ -111,7 +124,7 @@ figcaption {
 	grid-column-start: 1;
 	grid-column-end: 2;
 	text-align: center;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .hobby_pic_2 {
@@ -119,7 +132,7 @@ figcaption {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	text-align: center;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .hobby_pic_3 {
@@ -127,7 +140,7 @@ figcaption {
 	grid-column-start: 3;
 	grid-column-end: 4;
 	text-align: center;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 ol {
@@ -143,11 +156,16 @@ ul em {
 }
 
 footer {
+	border-top: 15px solid #e3d46f;
 	font-size: 12px;
 	background-color: #FFFEE8;
 	padding: 15px;
 	width: 100%;
 	bottom: 0;
+	box-sizing: border-box;
+	text-align: center;
+	/*left: 0;
+	*/
 }
 
 
